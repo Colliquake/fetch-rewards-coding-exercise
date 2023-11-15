@@ -52,6 +52,10 @@ dependencies {
     implementation("androidx.fragment:fragment-ktx:1.6.2")
     implementation("androidx.fragment:fragment:1.6.2")
     implementation("androidx.navigation:navigation-dynamic-features-fragment:2.7.5")
+    androidTestImplementation("androidx.navigation:navigation-testing:2.7.5")
+    debugImplementation("androidx.fragment:fragment-testing:1.6.2")
+    testImplementation("org.mockito:mockito-core:4.11.0")
+    androidTestImplementation("org.mockito:mockito-android:4.11.0")
     
     implementation("com.squareup.okhttp3:okhttp:4.11.0")
 }
